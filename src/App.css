@@ -1,0 +1,93 @@
+
+
+
+.App{
+  max-width: 800px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: #F0F3FF;
+  padding: 20px 20px;
+  box-shadow: 0 0 10px #fff;
+}
+
+h1{
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active-question{
+  font-size: 30px;
+  font-weight: bold;
+  color: #720455;
+}
+.total-question{
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+}
+
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid #FFEFEF;
+  background-color: #F0F3FF;
+  color: #534f4f;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: -40px;
+  cursor: pointer;
+  max-width: 800px;
+}
+
+li:hover{
+  border: 2px solid #534f4f;
+}
+
+.selected-answer{
+  background-color: rgba(231, 124, 194, 0.949)
+}
+
+button{
+  border: none;
+  padding:10px 40px;
+  border-radius: 10px;
+  background-color: #910A67;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 650px;
+}
+
+button:disabled{
+  background-color: #534f4f;
+  cursor: not-allowed;
+}
+
+.result h3{
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #720455;
+  text-align: center;
+}
+
+.result p{
+  font-size: 30px;
+  margin-left: 20px;
+  color: #534f4f;
+}
+
+.result span{
+  font-size: 35px;
+  color: #7b4397;
+  font-weight: bolder;
+}
